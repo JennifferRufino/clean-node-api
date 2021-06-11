@@ -1,0 +1,21 @@
+{
+  "name": "clean-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "test:staged" : "jest"
+  },
+  "standard": {
+    "env": ["jest"]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "jest": "^27.0.4",
+    "lint-staged": "^11.0.0",
+    "standard": "^16.0.3"
+  }
+}
